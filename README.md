@@ -65,4 +65,4 @@ Bem-vindo ao repositório do **Bootcamp Data Engineering com Python da NTT Data 
 
 ---
 
-Essa versão mantém uma estrutura clara, adiciona seções separadas e inclui emojis para torná-la mais amigável e visualmente atraente. Você pode ajustar ainda mais conforme suas preferências!
+> Esse README oferece uma visão mais abrangente do que é o Bootcamp, os tópicos que ele cobre, e os tipos de projetos e desafios que você está desenvolvendo. Além disso, menciona as tecnologias utilizadas e os objetivos do bootcamp, proporcionando uma visão clara do propósito e das metas do repositório.
