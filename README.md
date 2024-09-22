@@ -29,8 +29,8 @@ Bem-vindo ao repositório do **Bootcamp Data Engineering com Python da NTT Data 
 
 ### Desafios de Projetos
 
-- 🏆 **Criando um Portfólio Vencedor** (1 hora)
-- 🌐 **Contribuindo em um Projeto Open Source no GitHub** (1 hora)
+- 🏆 **Criando um Portfólio Vencedor** 
+- 🌐 **Contribuindo em um Projeto Open Source no GitHub** 
 
 ### Programação Orientada a Objetos
 
