@@ -1,4 +1,4 @@
-# 💳 Sistema Bancário em Python
+# 💳 Sistema Bancário Simples e Básico em Python
 
 > Este projeto tem como objetivo exercitar a lógica em Python, simulando a criação de um sistema bancário completo.
 
