@@ -61,10 +61,6 @@ flowchart TD
     T --> U[Fim]
 ```
 
-## 📦 Tecnologias Utilizadas
-- **Python 3.x**: A linguagem de programação utilizada para desenvolver o sistema.
-- **Dicionários**: Estruturas de dados que armazenam informações dos clientes.
-
 ## 🛠️ Como Executar
 Para executar o sistema bancário, siga os passos abaixo:
 
@@ -73,7 +69,7 @@ Para executar o sistema bancário, siga os passos abaixo:
 
 2. **Navegue até o diretório do projeto**:
    ```bash
-   cd PythonBank
+   cd PythonBankBasic
    ```
 
 3. **Execute o script**:
