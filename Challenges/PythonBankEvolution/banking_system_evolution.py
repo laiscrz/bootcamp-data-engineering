@@ -1,5 +1,9 @@
 # Dicionário para armazenar os clientes
 clientes = {}
+
+# Conjunto para armazenar CPF/CNPJ únicos
+cnpj_set = set()
+
 # Tupla com os tipos de conta disponíveis
 tipos_conta = ("Física", "Jurídica")
 
@@ -39,8 +43,7 @@ def cadastrar_cliente():
     nome = input('Nome: ')
     cpf_cnpj = input('CPF ou CNPJ: ')
 
-
-    if cpf_cnpj in clientes:
+    if cpf_cnpj in cnpj_set:
         print("Erro: CPF/CNPJ já cadastrado.")
         return 
 
@@ -57,18 +60,21 @@ def cadastrar_cliente():
         else:
             print("Erro: Opção inválida. Digite 'F' para Física ou 'J' para Jurídica.")
 
-    agencia = input('Agência: ') 
-    senha = solicitar_senha() 
+    agencia = input('Agência: ')  
+    senha = solicitar_senha()  
     clientes[cpf_cnpj] = {
         'nome': nome,
         'telefone': telefone,
         'tipo': tipo,
-        'agencia': agencia,  
+        'agencia': agencia,
         'senha': senha,
         'saldo': 0,
         'extrato': [],
-        'saques_realizados': 0  
+        'saques_realizados': 0 
     }
+    
+    cnpj_set.add(cpf_cnpj)
+    
     print('Cliente cadastrado com sucesso!')
 
 def acessar_conta():
@@ -112,7 +118,7 @@ def menu_operacoes(cpf_cnpj):
         elif acao == str(3):
             visualizar_extrato(cpf_cnpj)
         elif acao == str(4):
-            listar_clientes()  
+            listar_clientes() 
         else:
             print('Opção inválida. Tente novamente.')
 
